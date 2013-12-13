@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="5dip" >
+
+    <!-- ListRow Left sied Thumbnail image -->
+
+    <LinearLayout
+        android:id="@+id/thumbnail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginRight="5dip"
+        android:padding="3dip" >
+
+        <ImageView
+            android:id="@+id/list_image"
+            android:layout_width="32dip"
+            android:layout_height="32dip"
+            android:src="@drawable/tarea2" />
+    </LinearLayout>
+
+    <!-- Artist Name -->
+
+    <TextView
+        android:id="@+id/Tareas"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/Materia"
+        android:layout_below="@+id/Materia"
+        android:layout_toLeftOf="@+id/Fecha"
+        android:text="Texto de las tareas ..."
+        android:textColor="#343434"
+        android:textSize="12dip" />
+
+    <!-- Title Of Song -->
+
+    <TextView
+        android:id="@+id/Materia"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/thumbnail"
+        android:layout_toRightOf="@+id/thumbnail"
+        android:text="Titulo de Materia"
+        android:textColor="#040404"
+        android:textSize="15dip"
+        android:textStyle="bold"
+        android:typeface="sans" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/Materia"
+        android:text="Entrega"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textSize="10dip" />
+
+    <TextView
+        android:id="@+id/Fecha"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/textView1"
+        android:text="Fecha"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="#ff4444"
+        android:textSize="10dip" />
+
+</RelativeLayout>

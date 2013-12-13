@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Lista Tareas ISC</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="Text_Tareas">Tareas</string>
+    <string name="title_activity_acerda_de">Acerda De</string>
+    <string name="title_activity_tarea_sola">Tarea</string>
+    <string name="title_activity_single_menu_item">Tarea</string>
+    <string name="tag_materia">TAG_MATERIA</string>
+
+</resources>
